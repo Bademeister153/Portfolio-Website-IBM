@@ -31,3 +31,17 @@ section {
 .recommendation-form {
     margin-top: 20px;
 }
+#homebutton {
+    text-align: center;
+    margin-top: 20px;
+}
+#myBtn {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+#myBtn:hover {
+    background-color: #555;
+}

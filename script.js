@@ -8,3 +8,6 @@ function addRecommendation() {
         alert("Recommendation added successfully!");
     }
 }
+function topFunction() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
