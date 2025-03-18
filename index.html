@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h2>John Doe</h2>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#recommendations">Recommendations</a>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h3>About Me</h3>
+        <img src="profile.jpg" alt="Profile Picture" width="100">
+        <p>Hello, I am John Doe, a passionate web developer with 3 years of experience...</p>
+    </section>
+    
+    <section id="skills" class="skills">
+        <h3>Skills</h3>
+        <p><img src="html.png" alt="HTML Logo"> HTML</p>
+        <p><img src="css.png" alt="CSS Logo"> CSS</p>
+        <p><img src="js.png" alt="JavaScript Logo"> JavaScript</p>
+    </section>
+    
+    <section id="projects" class="projects">
+        <h3>Projects</h3>
+        <p><img src="project1.png" alt="Project 1"> Project 1 - Description</p>
+        <p><img src="project2.png" alt="Project 2"> Project 2 - Description</p>
+        <p><img src="project3.png" alt="Project 3"> Project 3 - Description</p>
+    </section>
+    
+    <section id="recommendations">
+        <h3>Recommendations</h3>
+        <ul id="recommendation-list">
+            <li>Recommendation 1</li>
+            <li>Recommendation 2</li>
+            <li>Recommendation 3</li>
+        </ul>
+        <div class="recommendation-form">
+            <input type="text" id="new-recommendation" placeholder="Add a recommendation">
+            <button onclick="addRecommendation()">Submit</button>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
